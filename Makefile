@@ -1,6 +1,6 @@
 CXX = gcc
 CXXFLAGS = 
-LDFLAGS =  
+LDFLAGS = 
 
 SRC = numerals.c main.c
 OBJ = $(SRC:.cc=.o)
@@ -12,4 +12,4 @@ $(EXEC): $(OBJ)
 	$(CXX) $(LDFLAGS) -o $@ $(OBJ) $(LBLIBS)
 
 clean:
-	rm -rf $(OBJ) $(EXEC)
+	rm -rf $(EXEC)
