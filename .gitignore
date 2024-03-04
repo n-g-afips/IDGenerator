@@ -1,0 +1,4 @@
+build/*
+*.json
+idgenerator
+*.log
